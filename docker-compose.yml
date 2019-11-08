@@ -16,6 +16,6 @@ services:
     volumes:
       - .:/cat_app
     ports:
-      - "3000:3000"
+      - "80:3000"
     depends_on:
       - db
